@@ -1,5 +1,7 @@
 A continuacion, procederemos a mostrar el codigo utilizado para nuestro proyecto actual:
 
+
+```
 .DSEG
    .EQU OPR1=0X00    ; Definir la constante OPR1 con valor 0x00
    .EQU OPR2=0X01    ; Definir la constante OPR2 con valor 0x01
@@ -69,5 +71,6 @@ A continuacion, procederemos a mostrar el codigo utilizado para nuestro proyecto
       STS 0X100, R16     ; Almacenar el resultado reiniciado en la dirección de memoria 0x100
 	  
       RET               ; Retornar de la rutina de suma
+```
 
 
